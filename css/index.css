@@ -1,0 +1,143 @@
+
+body{
+    background: #F2F2F2;
+}
+
+.e_nav{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    background: #373F68;
+    border-radius: 10px;
+}
+.logo{
+    width: 20%;
+    min-height: 70px;
+    float: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.logo h6{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.logo h4{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+
+}
+.menu{
+    width: 80%;
+    min-height: 85px;
+    float: left;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+}
+.menu .btn{
+    background: #AD1FEA;
+    border-radius: 10px;
+    color: white;
+}
+.section1{
+    width: 100%;
+    min-height: 500px;
+    float: left;
+}
+.blok1{
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    background-color: white;
+    border-top: 10px solid #F49F85;
+    border-radius: 5px 5px 0px 0px;
+}
+.wordss{
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.wordss p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+}
+.wordss p span{
+    color: #F49F85;
+}
+.wordss h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    letter-spacing: -0.25px;
+    color: #3A4374;
+
+}
+
+.foot{
+    position: relative;
+    width: 100%;
+    height: 112px;
+    float: left;
+}
+.foot .btn11{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #4661E6;
+    background: #F2F4FF;
+    border-radius: 10px;
+}
+.foot .btn12{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.180556px;
+    color: #3A4374;
+    background: #F2F4FE;
+    border-radius: 10px;
+}
+.foot .btn12 span{
+    color: #4661E6;
+    font-weight: bold;
+}
+.foot button{
+    margin: 10px;
+}
+.coment{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 18px;
+    height: 16px;
+    float: left;
+    color: #CDD2EE;
+    font-size: 20px;
+}
