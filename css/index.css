@@ -55,21 +55,59 @@ body{
     min-height: 500px;
     float: left;
 }
-.blok1{
+.etop{
+    margin-top: 20px;
     width: 100%;
+    min-height: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.etop h4{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    letter-spacing: -0.25px;
+    color: #3A4374;
+}
+.etop p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+
+}
+.blok1 , .blok2 , .blok3{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 350px;
     height: 300px;
     float: left;
-    margin-top: 20px;
     background-color: white;
     border-top: 10px solid #F49F85;
     border-radius: 5px 5px 0px 0px;
 }
+.blok1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.blok2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.blok3:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 .wordss{
     width: 100%;
     height: 160px;
     float: left;
-    margin-left: 10px;
+    margin-left: 35px;
     margin-top: 10px;
+
 }
 .wordss p{
     font-family: 'Jost';
@@ -99,6 +137,7 @@ body{
     width: 100%;
     height: 112px;
     float: left;
+    margin-left: 20px;
 }
 .foot .btn11{
     font-family: 'Jost';
@@ -133,11 +172,42 @@ body{
 }
 .coment{
     position: absolute;
-    right: 30px;
+    right: 60px;
     bottom: 30px;
     width: 18px;
     height: 16px;
     float: left;
     color: #CDD2EE;
     font-size: 20px;
+}
+
+.blok2{
+    border-top: 10px solid #AD1FEA;
+    border-radius: 5px 5px 0px 0px;
+}
+.blok3{
+    border-top: 10px solid #62BCFA;
+    border-radius: 5px 5px 0px 0px;
+}
+.blok2 .wordss p span{
+    color: #AD1FEA;
+}
+.blok3 .wordss p span{
+    color: #62BCFA;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .etop{
+        margin-left: 65px;
+    }
+    .blok1 , .blok2 , .blok3{
+        margin-left: 50px;
+    }
+
+
 }
